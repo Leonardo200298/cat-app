@@ -1,5 +1,5 @@
 import {Route, Routes} from 'react-router';
-import Home from './Home';
+import Home from './Home/Home';
 import LandingPage from './landingPage';
 
 
