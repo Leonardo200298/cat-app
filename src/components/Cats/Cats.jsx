@@ -3,7 +3,7 @@ import './Cats.css'
 
 export default function Cats({ key, breed, temperament, img }) {
     return (
-        <div className='classCats' key={key}>
+        <div className='homeClass' key={key}>
             <p>
                 Breed:{breed}
             </p>
@@ -11,7 +11,7 @@ export default function Cats({ key, breed, temperament, img }) {
                 temperament:{temperament}
 
             </p>
-            <img src={img} alt="gatitos" />
+            <img className='imageSize' src={img} alt="gatitos" />
         </div>
     )
 }

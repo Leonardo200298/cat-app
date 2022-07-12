@@ -1,0 +1,12 @@
+.homeClass{
+    display: grid;
+
+    grid-template-columns: repeat(6, 200px);
+    grid-auto-rows: 1fr 1fr;
+    grid-gap: 20px;
+
+}
+.imageSize{
+    max-width: 100%;
+    max-height: 100%;
+}

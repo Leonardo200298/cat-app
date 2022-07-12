@@ -29,7 +29,7 @@ export default function Home() {
     <div>
       {!allcats ? <h1>Loading...</h1> : allcats.map(cat => {
         return (
-          <div className='homeClass'>
+          <div >
       
             <Cats 
               key={cat.id}
